@@ -15,4 +15,6 @@ mix local.rebar --force
 pushd status_monitor
   mix deps.get
   mix ecto.create
+  avn use
+  npm install
 popd
