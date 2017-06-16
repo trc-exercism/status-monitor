@@ -10,3 +10,7 @@ Elixir
 Phoenix
 Docker
 Postgres
+
+# Possible Helperful
+
+http://davidanguita.name/articles/dockerizing-a-phoenix-project/
