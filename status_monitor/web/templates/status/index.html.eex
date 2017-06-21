@@ -1,0 +1,4 @@
+<div>
+  Application Name: <%= @more_information.name %>
+  Version: <%= @status_information.version %>
+</div>

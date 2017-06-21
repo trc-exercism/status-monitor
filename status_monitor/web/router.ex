@@ -17,6 +17,8 @@ defmodule StatusMonitor.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/status", StatusController, :index
+    get "/status/:version", StatusController, :index
   end
 
   # Other scopes may use custom stacks.
