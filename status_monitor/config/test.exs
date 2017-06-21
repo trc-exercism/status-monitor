@@ -15,5 +15,5 @@ config :status_monitor, StatusMonitor.Repo,
   username: "postgres",
   password: "postgres",
   database: "status_monitor_test",
-  hostname: "localhost",
+  hostname: "postgres",
   pool: Ecto.Adapters.SQL.Sandbox

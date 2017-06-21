@@ -39,5 +39,5 @@ config :status_monitor, StatusMonitor.Repo,
   username: "postgres",
   password: "postgres",
   database: "status_monitor_dev",
-  hostname: "localhost",
+  hostname: "postgres",
   pool_size: 10
